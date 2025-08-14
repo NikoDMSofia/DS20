@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    
+}
+
+.head_conteiner {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.head_conteiner  img {
+    width: 100%;
+}
+
+.head_conteiner .head_title {
+    padding: 2em;
+    width: 100%;
+}
+.head_conteiner  .head_name {
+    font-size: 2.3em;
+    
+    
+}
+
+.head_conteiner .head_smaller_name {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.1em;
+}
+
+
+
+
