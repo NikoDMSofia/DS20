@@ -35,8 +35,6 @@ img {
 }
 .head_conteiner  .head_name {
     font-size: 2.3em;
-    
-    
 }
 
 .head_conteiner .head_smaller_name {
@@ -44,17 +42,16 @@ img {
     font-size: 1.1em;
 }
 
-
 .main_name {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: end;
     height: 15vh;
-    color:  rgb(99 102 241 / var(--tw-bg-opacity, .7));
+    color: rgba(0, 0, 0, 0.747);
 }
 .name_title {
-    padding: 1.5em ;
+    padding: 1.1em ;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -62,10 +59,13 @@ img {
     flex-wrap: wrap;
 }
 .name_title p {
+    margin: 2em 0;
      max-width: 45em;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-weight: 500;
-     font-size: 1.1em;
+     font-size: 1.6em;
+     letter-spacing: -.02em;
+     line-height: 1.5em;
 }
 
 .main_coontent {
@@ -87,7 +87,7 @@ img {
 }
 
 .main_coontent .title_name {
-    color: black;
+    color: rgba(0, 0, 0, 0.747);
     font-weight: bolder;
     font-weight: 700;
     letter-spacing: -.025em;
@@ -99,6 +99,5 @@ img {
     max-width: 25em;
     padding: 1.5em 0;
 }
-
 
 
