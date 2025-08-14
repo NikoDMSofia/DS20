@@ -7,10 +7,9 @@
 }
 
 nav {
-    /* margin-top: -100px; */
     background-color: white;
     box-shadow: 3px 3px 5px rgb(201, 199, 199);
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     text-align: center;
 }
@@ -20,15 +19,19 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
 }
 nav li {
-    height: 70px;
     list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 nav li:first-child {
     margin-right: auto;
 }
+
 nav li:nth-child(8){
     margin-left: auto;
 }
@@ -36,26 +39,32 @@ nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
-    display: flex;
-    align-items: center;
     color: black;
 }
-nav a:hover {
-    background-color: rgba(0, 0, 0, 0.144);
-}
+
 
 nav img {
     width: 50px;
     margin: 0 30px 0 0;
 }
 
-nav .bookAconsultationBG {
-    background-color: #6C8B7C;
-    border-radius: 1.5em;
-    height: 2.2em;
-    margin: 0 10px;
-
+nav #bookAconsultationBG {
+    background-color: rgb(99 102 241 / var(--tw-bg-opacity, 1));
+    border-radius: 2em;
+    font-size: .9em;
+    padding: .6em 1.5em;
+    color: rgb(255, 255, 255);
+    margin-right: 2em;
+    transition: .4s;
 }
+
+nav #bookAconsultationBG:hover {
+        color: rgb(0, 0, 0);
+        background-color:  rgb(99 102 241 / var(--tw-bg-opacity, .7));
+    }
+
+
+
 
 .sidebar {
     position: fixed;
@@ -73,8 +82,11 @@ nav .bookAconsultationBG {
     justify-content: flex-start;
 }
 
+
 .sidebar li {
+    
     width: 100%;
+    margin-bottom: 1.5em;
 
 }
 .sidebar a {
@@ -87,6 +99,8 @@ nav .bookAconsultationBG {
 .manu_button {
     display: none;
 }
+
+
 
 
 /* ---------- @media ----------- */
